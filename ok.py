@@ -56,6 +56,6 @@ def main(harf):
       soz += 'з'
     elif h == ' ':
       soz += ' '
-  print(soz)
-
-main('krill')
+  print("Krilldagi matn: ",soz)
+text = input("Matn kiriting: ")
+main(text)
